@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-KrystalNodes"
+description = "A small pack of utility nodes including CLIP/VAE fallbacks, Anima model detection, and multi image preview."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "Pillow",]
+
+[project.urls]
+Repository = "https://github.com/Krystal-0/ComfyUI-KrystalNodes"
+
+[tool.comfy]
+PublisherId = "krystal"
+DisplayName = "ComfyUI KrystalNodes"
+Icon = ""
